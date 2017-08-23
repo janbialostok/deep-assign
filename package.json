@@ -1,6 +1,6 @@
 {
-  "name": "deepassign",
-  "version": "0.0.0-alpha.1",
+  "name": "deep.assign",
+  "version": "0.0.0-alpha.0",
   "description": "a deep assignment implementation that does not use recursion",
   "main": "index.js",
   "bin": {
