@@ -6,7 +6,7 @@ const deepMerge = require('./index').deepMerge;
 
 console.time('copy');
 let result;
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 100000; i++) {
   // result = DEEP_MERGE({}, {
   //   a: 'a',
   //   b: {
@@ -32,7 +32,35 @@ for (let i = 0; i < 1; i++) {
   //     }
   //   }
   // }, { clone: true });
-  // result = LODASH_MERGE({}, {
+  result = LODASH_MERGE({}, {
+    a: 'a',
+    b: {
+      a: {
+        a: {
+          a: 'a',
+          b: {
+            a: 'a',
+            b: 'b'
+          }
+        }
+      }
+    },
+    c: 'c',
+    d: 'd',
+    e: {
+      a: {
+        a: 'a',
+        b: 'b',
+        c: {
+          a: 'a'
+        }
+      }
+    },
+    f: {
+      a: [1, 2, { a: 'a' }]
+    }
+  });
+  // result = deepAssign({}, {
   //   a: 'a',
   //   b: {
   //     a: {
@@ -60,34 +88,6 @@ for (let i = 0; i < 1; i++) {
   //     a: [1, 2, { a: 'a' }]
   //   }
   // });
-  result = deepMerge({}, {
-    a: 'a',
-    b: {
-      a: {
-        a: {
-          a: 'a',
-          b: {
-            a: 'a',
-            b: 'b'
-          }
-        }
-      }
-    },
-    c: 'c',
-    d: 'd',
-    e: {
-      a: {
-        a: 'a',
-        b: 'b',
-        c: {
-          a: 'a'
-        }
-      }
-    },
-    f: {
-      a: [1, 2, { a: 'a' }]
-    }
-  }, { depth: 1 });
 }
 console.timeEnd('copy');
 console.log(JSON.stringify(result, null, 2));
