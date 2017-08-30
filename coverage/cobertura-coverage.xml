@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="50"  lines-covered="27"  line-rate="0.54"  branches-valid="52"  branches-covered="22"  branch-rate="0.42310000000000003"  timestamp="1504130100166" complexity="0" version="0.1">
+<sources>
+	<source>/Users/janbialostok/Developer/github/other/deep-assign</source>
+</sources>
+<packages>
+	<package name="bin"  line-rate="0.54"  branch-rate="0.42310000000000003" >
+	<classes>
+		<class name="deep-assign.js"  filename="bin/deep-assign.js"  line-rate="0.9565"  branch-rate="0.9167000000000001" >
+		<methods>
+			<method name="deepAssign"  hits="7"  signature="()V" >
+				<lines><line number="3"  hits="7" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="7"  branch="false" />
+			<line number="5"  hits="7"  branch="false" />
+			<line number="6"  hits="7"  branch="false" />
+			<line number="7"  hits="7"  branch="false" />
+			<line number="8"  hits="7"  branch="false" />
+			<line number="9"  hits="31"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="10"  hits="30"  branch="false" />
+			<line number="11"  hits="40"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="12"  hits="24"  branch="false" />
+			<line number="13"  hits="24"  branch="false" />
+			<line number="14"  hits="24"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="15"  hits="13"  branch="true"  condition-coverage="100% (6/6)" />
+			<line number="16"  hits="13"  branch="false" />
+			<line number="18"  hits="11"  branch="true"  condition-coverage="83.33333333333334% (5/6)" />
+			<line number="19"  hits="11"  branch="false" />
+			<line number="21"  hits="24"  branch="false" />
+			<line number="23"  hits="16"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="24"  hits="0"  branch="false" />
+			<line number="28"  hits="31"  branch="false" />
+			<line number="30"  hits="7"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="31"  hits="5"  branch="false" />
+			<line number="34"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="deep-merge.js"  filename="bin/deep-merge.js"  line-rate="0.0833"  branch-rate="0" >
+		<methods>
+			<method name="deepMerge"  hits="0"  signature="()V" >
+				<lines><line number="3"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="7"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="8"  hits="0"  branch="false" />
+			<line number="9"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="10"  hits="0"  branch="false" />
+			<line number="11"  hits="0"  branch="true"  condition-coverage="0% (0/6)" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="13"  hits="0"  branch="false" />
+			<line number="14"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="15"  hits="0"  branch="true"  condition-coverage="0% (0/6)" />
+			<line number="16"  hits="0"  branch="false" />
+			<line number="18"  hits="0"  branch="true"  condition-coverage="0% (0/6)" />
+			<line number="19"  hits="0"  branch="false" />
+			<line number="21"  hits="0"  branch="false" />
+			<line number="22"  hits="0"  branch="false" />
+			<line number="24"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="25"  hits="0"  branch="false" />
+			<line number="29"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="30"  hits="0"  branch="false" />
+			<line number="32"  hits="0"  branch="false" />
+			<line number="35"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="index.js"  filename="bin/index.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="1"  branch="false" />
+			<line number="3"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
